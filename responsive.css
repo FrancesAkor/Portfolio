@@ -1,0 +1,85 @@
+.inner-header {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+@media screen and (max-width: 350px) {
+	.inner-header {
+		justify-content: center
+	}
+
+	.name {
+		font-size: 1.5em;
+		text-align: center;
+	}
+
+	.about {
+		font-size: 1em;
+		text-align: center;
+	}
+
+	.picture {
+		margin-right: 0;
+		width: 150px;
+		height: 100px;
+	}
+
+	.desk {
+		width: 100%;
+		max-height: 200px;
+	}
+}
+
+@media screen and (min-width: 351px) and (max-width: 420px) {
+	.inner-header {
+		justify-content: space-between;
+	}
+
+	.name {
+		font-size: 2em;
+	}
+
+	.about {
+		font-size: 1em;
+	}
+
+	.picture {
+		margin-right: 0;
+	}
+
+	.desk {
+		width: 100%;
+		max-height: 300px;
+	}
+}
+
+@media screen and (min-width: 600px) {
+	.container {
+		display: flex;
+	}
+
+	.memory-game,
+	.game-clone,
+	.sunflower{
+		margin-right: 10px;
+		width: calc((100% - 20px)/3);
+	}
+
+	.sunflower {
+		margin-right: 0;
+	}
+}
+
+@media screen and (min-width: 740px) {
+	.portfolio {
+		max-width: 740px;
+		margin-left: auto;
+		margin-right: auto;
+		background-color: silver;
+	}
+
+	body {
+		background-color: teal;
+	}
+}

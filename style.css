@@ -1,0 +1,171 @@
+html,
+body {
+	width: 100%;
+	min-height: 100%;
+	margin: 0;
+	padding: 0;
+		
+}
+
+body {
+	font-family:'Roboto', sans-serif;
+	background-color: silver;
+
+}
+
+.portfolio {
+	width: 100%;
+	padding: 0;
+	height: 100%;
+}
+
+/*
+ *  
+ *	Header
+ *
+ */
+
+header {
+	width: 100%;
+	min-height: 50px;
+}
+
+.inner-header {
+	width: 100%;
+	margin-bottom: 30px;
+	padding-top: 30px;	
+}
+
+.picture {
+	height: 150px
+	width: 200px;
+	border-radius: 50%;
+	margin-right: 20px;	
+	margin-top: 0;
+}
+
+.profile {
+	float: right;
+	margin-left: 0px;
+	margin-top: 0;
+}
+
+.name {
+	font-size: 40px;
+	font-weight: lighter;
+	margin: 0;
+}
+
+.about {
+	font-size: 18px;
+	text-align: right;
+	font-weight: lighter;
+	margin: 0;
+}
+
+hr {
+	max-width: 100%;
+	height: 10px;
+}
+
+/*
+ *
+ *	Main
+ *
+ */
+
+main {
+	width: 100%;
+}
+
+.welcome {
+	width: 100%;
+}
+
+.desk {
+	width: 100%;
+	height: 400px;
+	margin-top: 15px;
+}
+
+/*
+ *
+ *	Featured Work
+ *
+ */
+
+.featured-work {
+	width: 100%;
+	margin-top: 10px;
+}
+
+.title {
+	color: teal;
+	margin: 20px 0 10px 10px;
+}
+
+.memory-game,
+.game-clone,
+.sunflower  {
+	width: 100%;
+	margin-bottom: 10px;
+	background-color: #7da7ad;
+	border-radius: 20px;
+}
+
+.project {
+	width: 100%;
+	border-radius: 20px;
+}
+
+.project-info {
+	text-align: center;
+	margin-top: 0;
+}
+
+h2 {
+	margin-bottom: 0;
+	text-align: center;
+}
+
+a {
+	color: red;
+	margin-top: 0;
+	text-decoration: none;
+	font-size: 20px;
+}
+
+/*
+ *
+ *	Footer
+ *
+ */
+
+footer {
+	width: 100%;
+	margin-top: 20px;
+}
+
+ul {
+	text-align: center;
+	padding: 0;
+}
+
+li {
+	display: inline;
+}
+
+.social-icon {
+	font-size: 30px;
+}
+
+.copyright {
+	text-align: center;
+	color: teal;
+	font-style: italic;
+	font-weight: bold;
+	margin-top: 10px;
+}
+
+
+
