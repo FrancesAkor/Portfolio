@@ -74,7 +74,6 @@
 @media screen and (min-width: 740px) {
 	.portfolio {
 		max-width: 740px;
-		min-height: 100%;
 		margin-left: auto;
 		margin-right: auto;
 		background-color: silver;
